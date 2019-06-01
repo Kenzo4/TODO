@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple ToDo</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="topNav">
+            <h3>Simple TODO</h3>
+        </div>
+    </header>
+        <div class="top-task">
+            <p>For Home</p>
+        </div>
+        <div class="input">
+            <input id="myInput" type="text" placeholder="Start typing here to create task..."><button id="addBtn"
+                onclick="newTask()">Add</button>
+        </div>
+        <div class="task-list">
+                <ul id="myUl">
+                    <li class="checked">Buy milk</li>
+                    <li>Clear home</li>
+                    <li>Learn English</li>
+                    <li>Complete homework</li>
+                </ul>
+        </div>
+        <div class="wrraper">
+            <button onclick="newFunction" class="newList">New List</button>
+        </div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
